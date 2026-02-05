@@ -70,15 +70,15 @@ const HeroSection = () => {
 
           {/* Product Image */}
           <div className="relative animate-slide-in-right">
-            <div className="relative mx-auto w-fit flex flex-col items-center">
+            <div className="relative mx-auto w-fit">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full blur-3xl scale-110" />
               <img
                 src={takhfeeProduct}
                 alt="তাখফী পেইন রিলিফ অয়েল"
-                className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-xl mx-auto drop-shadow-2xl"
+                className="relative w-full max-w-lg lg:max-w-xl mx-auto drop-shadow-2xl"
               />
-              {/* Price Badge - Below product on mobile, centered */}
-              <div className="mt-4 bg-accent text-accent-foreground rounded-2xl px-6 py-3 shadow-lg">
+              {/* Price Badge - Centered on product */}
+              <div className="absolute bottom-1/4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground rounded-2xl px-6 py-3 shadow-lg">
                 <div className="text-sm line-through opacity-75 text-center">৳১২৯০</div>
                 <div className="text-2xl font-bold text-center">৳৮৯৯</div>
               </div>
