@@ -75,12 +75,12 @@ const HeroSection = () => {
               <img
                 src={takhfeeProduct}
                 alt="তাখফী পেইন রিলিফ অয়েল"
-                className="relative w-full max-w-md mx-auto drop-shadow-2xl"
+                className="relative w-full max-w-lg lg:max-w-xl mx-auto drop-shadow-2xl"
               />
-              {/* Price Badge */}
-              <div className="absolute -bottom-4 -right-4 bg-accent text-accent-foreground rounded-2xl px-6 py-3 shadow-lg">
-                <div className="text-sm line-through opacity-75">৳১২৯০</div>
-                <div className="text-2xl font-bold">৳৮৯৯</div>
+              {/* Price Badge - Centered on product */}
+              <div className="absolute bottom-1/4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground rounded-2xl px-6 py-3 shadow-lg">
+                <div className="text-sm line-through opacity-75 text-center">৳১২৯০</div>
+                <div className="text-2xl font-bold text-center">৳৮৯৯</div>
               </div>
             </div>
           </div>
