@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Users, Leaf, FlaskConical, Truck } from "lucide-react";
+import takhfeeProduct from "@/assets/takhfee-product.png";
 
 const HeroSection = () => {
   const scrollToOrder = () => {
@@ -72,7 +73,7 @@ const HeroSection = () => {
             <div className="relative mx-auto w-fit">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 rounded-full blur-3xl scale-110" />
               <img
-                src="https://takhfee.com/wp-content/uploads/2024/03/takhfee-2.png"
+                src={takhfeeProduct}
                 alt="তাখফী পেইন রিলিফ অয়েল"
                 className="relative w-full max-w-md mx-auto drop-shadow-2xl"
               />
